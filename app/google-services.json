@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085574462955",
+    "project_id": "eventorgapp-806d3",
+    "storage_bucket": "eventorgapp-806d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085574462955:android:d200f0014821fd9b8cadae",
+        "android_client_info": {
+          "package_name": "com.PiTech.eventOrg.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085574462955-ff5rknatbiralqb717a4muutrdlomr2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4kZGwOG7jLRbFtaQGp1RzMaELuvp0wng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085574462955-ff5rknatbiralqb717a4muutrdlomr2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
