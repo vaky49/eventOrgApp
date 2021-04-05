@@ -12,7 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.PiTech.eventOrg.app.LoginActivity"
+            android:name=".HomePageActivity"
+            android:theme="@style/AppThemefull">
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
             android:theme="@style/AppThemefull">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,15 +25,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.PiTech.eventOrg.app.ProfileActivity"
-            android:theme="@style/AppThemefull"
-            />
-        <activity
-            android:name="com.PiTech.eventOrg.app.SignupActivity"
-            android:theme="@style/AppThemefull" />
-        <activity android:name="com.PiTech.eventOrg.app.ResetPasswordActivity"
-            android:theme="@style/AppThemefull"/>
 
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/AppThemefull" />
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/AppThemefull" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:theme="@style/AppThemefull" />
     </application>
 
 </manifest>
